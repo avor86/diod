@@ -9,8 +9,8 @@ private:
 public:
     LedDiod();
 
-    void setColor(std::string color);
-    void setBrightness(int br);
+    void setColor(std::string new_color);
+    void setBrightness(int new_brightness);
     void showColor() ;
     void showBrightness();
     double calcDiodCurrent(double voltage);
