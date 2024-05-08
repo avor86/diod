@@ -1,8 +1,6 @@
 #ifndef DIOD_H
 #define DIOD_H
 
-#include <string>
-
 class LedDiod {
 private:
     int brightness; 
